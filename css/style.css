@@ -28,3 +28,18 @@ a{
 font-size: 20px;
 margin: 10px;
 }
+
+
+.container {
+ display: grid;
+ align-items: center;
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 10px;
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+
+img {
+  max-width: 100%;
+  max-height:100%;
+}
