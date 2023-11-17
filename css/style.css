@@ -1,0 +1,22 @@
+ body {
+  background-color: lightgray;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+
+h1 {
+font-size: 50px;
+
+}
+
+p {
+font-size: 20px;
+}
+
+a{
+font-size: 20px;
+
+}
