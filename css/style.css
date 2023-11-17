@@ -5,7 +5,7 @@
   width: 50%;
   padding: 10px;
 
-    background-image: url("/Users/martinstomnas/Desktop/Github/martinstomnas.github.io/images/bakgrunn.jpg");
+    background-image: url("../images/bakgrunn.jpg");
     background-size: cover;
 }
 
