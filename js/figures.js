@@ -26,5 +26,3 @@ circle = function (radius, mode, farge, x, y) {
         ctx.stroke()
     }
 }
-
-
