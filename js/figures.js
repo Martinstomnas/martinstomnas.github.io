@@ -5,6 +5,7 @@ Const rectangel = function(left, top, width, height, mode, color) {
     const canvas = document.getElementById("canvas");
     const ctx = canvas.getContext("2d");
 
+
     ctx.fillStyle = color; 
     ctx.fillRect(left, top, width, height); 
 };
