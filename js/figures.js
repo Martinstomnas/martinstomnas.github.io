@@ -1,3 +1,7 @@
+const canvas = document.getElementById("canvas");
+const ctx = canvas.getContext("2d");
+
+
 //fuksjon for rektangel
 function tegnRektangel (height, width, x, y, mode, color) {
     ctx.fillstyle = color;
