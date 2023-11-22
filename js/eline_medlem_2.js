@@ -1,17 +1,13 @@
 //Canavas 
 window.onload = function() {
-    setBackgroundColor("rgb(151, 210, 240)") // himmel
+    setBackgroundColor("rgb(2, 35, 64)") // himmel
 
-    circleCanvas(350, 150, 100, "yellow") // sol
-    circleCanvas(100, 75, 25, "white") // sky
-    circleCanvas(120, 100, 25, "white") //sky
-    circleCanvas(130, 75, 25, "white") // sky
-    circleCanvas(140, 100, 25, "white") // sky
-    rectangleCanvas(0, 410, 500, 90, "rgb(184, 146, 70)") // sand
-    rectangleCanvas(0, 340, 500, 70, "rgb(237, 192, 102)") // sand
-    rectangleCanvas(0, 280, 500, 60, "rgb(109, 166, 227") // vann
-    rectangleCanvas(0, 240, 500, 40, "rgb(71, 151, 237)") // vann
-    rectangleCanvas(0, 220, 500, 20, "rgb(57, 135, 230)") // vann
+    circleCanvas(350, 150, 100, "solid", "white") // sol
+    circleCanvas(400, 150, 100, "solid", "rgb(2, 35, 64)") // sky
+    circleCanvas(120, 100, 25, "solid", "white") //sky
+    circleCanvas(130, 75, 25, "solid", "white") // sky
+    circleCanvas(140, 100, 25, "solid", "white") // sky
+    rectangleCanvas(0, 420, 500, 300, "solid", "white")
 
 };
 
