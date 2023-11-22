@@ -76,3 +76,9 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: rgb(255, 255, 255);
 }
+
+
+.medlemmer {
+   display: flex;
+   justify-content: center;
+ }
