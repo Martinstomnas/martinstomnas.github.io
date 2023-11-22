@@ -47,6 +47,10 @@ img {
 
 
 
-.tegning {
+.api_tegning {
+  text-align: center;
+}
+
+.svg_tegning {
   text-align: center;
 }

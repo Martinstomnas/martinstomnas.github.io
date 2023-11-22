@@ -15,3 +15,11 @@ window.onload = function() {
     rectangleCanvas(0, 220, 500, 20, "rgb(57, 135, 230)") // vann
 
 };
+
+//js
+
+document.addEventListener("DOMContentLoaded", function() {
+  circleSVG(50, 50, 30, "someMode", "red");
+  circleSVG(100, 10, 30, "someMode", "red");
+
+});
