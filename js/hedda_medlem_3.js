@@ -7,7 +7,7 @@ window.onload = function() {
     circleCanvas(120, 100, 25, "solid","white") //sky 
     circleCanvas(130, 75, 25, "solid","white") // sky
     circleCanvas(140, 100, 25, "solid","white") // sky
-    rectangleCanvas(0, 410, 500, 90, "solid", "rgb(205, 170, 109)") // sand   (0, høyde, )
+    rectangleCanvas(0, 410, 500, 90, "solid", "rgb(205, 170, 109)") // sand   
     rectangleCanvas(0, 340, 500, 70, "solid", "rgb(237, 192, 102)") // sand
     rectangleCanvas(0, 280, 500, 60, "solid", "rgb(109, 166, 227") // vann
     rectangleCanvas(0, 240, 500, 40, "solid", "rgb(71, 151, 237)") // vann
