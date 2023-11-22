@@ -91,3 +91,18 @@ a:hover {
   text-align: center;
   margin-left: .500px;
  }
+
+
+ .image-grid {
+           display: grid;
+           grid-template-columns: repeat(4, 1fr);
+           gap: 10px;
+           justify-content: center;
+           align-items: center;
+       }
+
+       .image-grid img {
+           width: 100%;
+           height: auto;
+           display: block;
+       }
