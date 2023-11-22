@@ -9,7 +9,7 @@ function circleCanvas(x, y, radius, color) {
     ctx.fill();
     }
     
-function rectangleCanvas(x, y, width, height, color) {
+function rectangleCanvas(x, y, width, height, rotate, color) {
         const canvas = document.getElementById('canvas');
         const ctx = canvas.getContext('2d');
         ctx.fillStyle = color;
@@ -24,3 +24,19 @@ function setBackgroundColor(color) {
     }
     
 // SVG 
+
+const svg = document.getElementById("svg");
+svg.setAttribute("weight", "350");
+svg.setAttribute("height", "200");
+
+function circleSVG(x, y, r, style){
+    var circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+    circle.setAttribute("cx", x);
+    circle.setAttribute("cy", y); 
+    circle.setAttribute("r", r);
+    circle.setAttribute("style", style);
+
+    document.getElementById("svg").appendChild(circle);
+
+
+}
