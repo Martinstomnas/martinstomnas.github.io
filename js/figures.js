@@ -1,27 +1,40 @@
 
 // Canvas API
-function circleCanvas(x, y, radius, color) {
+function circleCanvas(x, y, radius, mode, color) {
     const canvas = document.getElementById('canvas');
     const ctx = canvas.getContext('2d');
+    ctx.fillStyle = color;
     ctx.beginPath();
     ctx.arc(x, y, radius, 0, 2 * Math.PI);
+    if (mode == "outline") {
+        ctx.stroke()
+    } else if (mode == "solid") {
+        ctx.fill()
+    } else {
+        console.log ("Skriv enten output eller solid for at objektet skal vises")    
+    }  
+}
+   
+function rectangleCanvas(x, y, width, height, mode, color) {
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
     ctx.fillStyle = color;
-    ctx.fill();
-    }
-
-function rectangleCanvas(x, y, width, height, color) {
-        const canvas = document.getElementById('canvas');
-        const ctx = canvas.getContext('2d');
-        ctx.fillStyle = color;
+    if (mode == "outline") {
+        ctx.strokeStyle = color;
+        ctx.strokeRect(x, y, width, height)
+    } else if (mode == "solid") {
         ctx.fillRect(x, y, width, height);
+    } else {
+        console.log ("Skriv enten output eller solid for at objektet skal vises") 
     }
-
+}
+    
 function setBackgroundColor(color) {
-        const canvas = document.getElementById('canvas');
-        const ctx = canvas.getContext('2d');
-        ctx.fillStyle = color;
-        ctx.fillRect(0, 0, canvas.width, canvas.height);
-    }
+    const canvas = document.getElementById('canvas');
+    const ctx = canvas.getContext('2d');
+    ctx.fillStyle = color;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+}  
 
 // SVG
 
