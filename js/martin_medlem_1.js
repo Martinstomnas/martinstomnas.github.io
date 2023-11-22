@@ -25,5 +25,4 @@ document.addEventListener("DOMContentLoaded", function() {
   rectangleSVG(200, 50, 50, 50, "outline", "yellow");
   rectangleSVG(100, 50, 50, 50, "outline", "green");
 
-
 });

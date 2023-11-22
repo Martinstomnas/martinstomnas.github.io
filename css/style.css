@@ -54,3 +54,14 @@ img {
 .svg_tegning {
   text-align: center;
 }
+
+
+.tegning-container {
+  display: flex;
+  justify-content: center;
+}
+
+.api_tegning,
+.svg_tegning {
+  margin-right: 10px; /* Add some spacing between the two divs */
+}
