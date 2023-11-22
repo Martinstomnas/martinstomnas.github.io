@@ -17,6 +17,18 @@ window.onload = function() {
 
 
 document.addEventListener("DOMContentLoaded", function() {
-  rectangleSVG(0, 0, 500, 500, "solid", "blue");
+  rectangleSVG(0, 0, 500, 500, "solid", "rgb(151, 210, 240)");
+
+  
+    circleSVG(350, 150, 100, "solid", "yellow"); // sol
+    circleSVG(100, 75, 25, "solid",  "white"); // sky
+    circleSVG(120, 100, 25, "solid", "white"); //sky
+    circleSVG(130, 75, 25, "solid", "white"); // sky
+    circleSVG(140, 100, 25, "solid", "white"); // sky
+    rectangleSVG(0, 410, 500, 90, "solid", "rgb(184, 146, 70)"); // sand
+    rectangleSVG(0, 340, 500, 70, "solid", "rgb(237, 192, 102)"); // sand
+    rectangleSVG(0, 280, 500, 60, "solid", "rgb(109, 166, 227)"); // vann
+    rectangleSVG(0, 240, 500, 40, "solid", "rgb(71, 151, 237)"); // vann
+    rectangleSVG(0, 220, 500, 20, "solid", "rgb(57, 135, 230)"); // vann
 
 });
