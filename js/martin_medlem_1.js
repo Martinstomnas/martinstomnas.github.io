@@ -3,7 +3,7 @@ window.onload = function() {
 
 
 
-    circleCanvas(350, 150, 100, "yellow") // sol
+    circleCanvas(350, 150, 100, "solid", "yellow") // sol
     circleCanvas(100, 75, 25, "white") // sky
     circleCanvas(120, 100, 25, "white") //sky
     circleCanvas(130, 75, 25, "white") // sky
@@ -19,7 +19,11 @@ window.onload = function() {
 //js
 
 document.addEventListener("DOMContentLoaded", function() {
-  circleSVG(50, 50, 30, "someMode", "red");
-  circleSVG(100, 10, 30, "someMode", "red");
+  rectangleSVG(0, 0, 500, 500, "solid", "blue");
+  circleSVG(50, 50, 30, "solid", "red");
+  circleSVG(100, 10, 30, "outline", "red");
+  rectangleSVG(200, 50, 50, 50, "outline", "yellow");
+  rectangleSVG(100, 50, 50, 50, "outline", "green");
+
 
 });
