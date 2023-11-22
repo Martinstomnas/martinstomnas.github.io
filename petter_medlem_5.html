@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <style>
+    body {
+      .image-container {
+        position: relative;
+        display: inline-block;
+        background-color: white; 
+        padding: 5px; 
+      }
+  
+  
+    .image-container img {
+      border: 2px solid rgb(255, 255, 255);
+    }}
+                          </style>
 <link rel="stylesheet" href="css/style.css">
 <script src="js/figures.js"></script>
 <script src="js/petter_medlem_5.js"></script>
@@ -22,10 +36,12 @@
    </div>
 <div class="tegning-container">
   <div class='api_tegning'>
+    <h3>Canvas</h3>
     <canvas id="canvas" width="500" height="500"></canvas>
   </div>
 
   <div class='svg_tegning'>
+    <h3>SVG</h3>
     <svg id="svg" width="500" height="500"></svg>
   </div>
 </div>
@@ -33,8 +49,10 @@
 <a href="https://github.com/petternaerum/Repository-petter/blob/main/Pro.%20oblig%2002%20individuell%20del">Kode: Progoblig 02</a>
 <a href="https://github.com/petternaerum/Repository-petter/blob/main/Image%20nature%20Pro.oblig%2003">Kode: Pyret</a>
 
+<div class="image-container">
+<img src="images/petter_graf.png"> </div>
 
-<img src="images/petter chart.png"> 
+<p style="color: white;">Denne grafen illustrer mitt årlige forbruk av co2 i kg. Dette er tatt i utganspunkt fra mine daglige vaner og levestandaren min.</p>
 
 
 </body>
