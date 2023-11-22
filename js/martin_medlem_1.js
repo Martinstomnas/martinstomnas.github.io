@@ -21,9 +21,7 @@ window.onload = function() {
 
 document.addEventListener("DOMContentLoaded", function() {
 
-
-
-//Himmel
+  //Himmel
   rectangleSVG(0, 0, 500, 500, "solid", "rgb(102, 178, 255)");
 
   // Stamme
@@ -32,14 +30,11 @@ document.addEventListener("DOMContentLoaded", function() {
   // Blader
   circleSVG(250, 150, 100, "solid", "green");
 
-
   // Sol
   circleSVG(0, 0, 100, "solid", "yellow");
 
   // Bakke
-
   circleSVG(250, 850, 450, "solid", "lightgreen");
-
 
 
 });
