@@ -19,7 +19,7 @@ window.onload = function() {
 //js
 
 document.addEventListener("DOMContentLoaded", function() {
-  circleSVG(50, 50, 30, "someMode", "red");
-  circleSVG(100, 10, 30, "someMode", "red");
+  circleSVG(50, 50, 30, "fill", "red");
+  circleSVG(100, 10, 30, "fill", "red");
 
 });
